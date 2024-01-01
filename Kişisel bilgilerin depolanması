@@ -1,0 +1,10 @@
+print("Beden kitle endeksi hesaplama:")
+bilgiler = []
+Boy = int(input("kullanıcının boyu:"))
+Kilo = int(input("kullanıcının kilosu:"))
+
+Beden_kitle_endeksi = Boy/Kilo
+
+bilgiler = [Boy,Kilo,Beden_kitle_endeksi]
+
+print("kullanıcının bayu:{}\tkullanıcının kilosu: {}\tkullanıcının kitle endeksi: {}".format(bilgiler[0],bilgiler[1],bilgiler[2]))
